@@ -1,0 +1,48 @@
+div{
+    outline:1px solid lime;
+}
+/*
+body{
+    background-color: red;
+}*/
+.container{
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header{
+    background-color:purple;
+    height:200px;
+width:100%;
+}
+.subcontent{
+    background-color: palevioletred;
+    height: 200px;
+    width:100%px;
+}
+.redboxes{
+    background-color: orangered;
+    height: 160px;
+    width: 430px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content{
+    background-color: azure;
+    height:400px;
+    width: 100%;
+}
+.redboxes2{
+    background-color: mediumvioletred;
+    width:420px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer{
+    background-color: antiquewhite;
+    height:500px;
+    width:920px;
+    float:left;
+}
