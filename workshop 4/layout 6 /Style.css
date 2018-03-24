@@ -42,9 +42,9 @@ body{
 }
 .yellowbox2{
     height: 100px;
-    width: 300px;
+    width: 250px;
     background-color: yellow;
     float: left;
-    margin-top:250;
-    margin-left: 100px;
+    margin-top:400;
+    margin-left: 100px
 }
