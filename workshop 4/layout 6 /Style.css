@@ -24,12 +24,12 @@ body{
 }
 .subcontent{
     background-color: green;
-    height:300px;
+    height:250px;
     width:920px;
 }
 .content{
     background-color: red;
-    height:430px;
+    height:270px;
     width:100%;
 }
 .yellowbox{
@@ -37,14 +37,14 @@ body{
     width: 100px;
     background-color:yellow;
     float: left;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 100px;
 }
 .yellowbox2{
     height: 100px;
-    width: 250px;
+    width: 300px;
     background-color: yellow;
     float: left;
-    margin-top:700;
+    margin-top:45px;
     margin-left: 100px
 }
