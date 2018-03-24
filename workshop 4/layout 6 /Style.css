@@ -29,22 +29,22 @@ body{
 }
 .content{
     background-color: red;
-    height:270px;
+    height:290px;
     width:100%;
 }
 .yellowbox{
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 180px;
     background-color:yellow;
     float: left;
-    margin-top: 10px;
-    margin-left: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 .yellowbox2{
     height: 100px;
-    width: 300px;
+    width: 400px;
     background-color: yellow;
     float: left;
-    margin-top:45px;
-    margin-left: 100px
+    margin-top:20px;
+    margin-left: 40px;
 }
