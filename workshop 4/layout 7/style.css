@@ -42,6 +42,14 @@ body{
     height: 250px;
     width: 100%;
 }
+.yellowstrip2 {
+    background-color: yellow;
+    height: 100px;
+    width: 500px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
 .content2 {
     background-color: blue;
     height: 500px;
