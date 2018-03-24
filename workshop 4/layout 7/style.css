@@ -44,28 +44,91 @@ body{
 }
 .yellowstrip2 {
     background-color: yellow;
-    height: 100px;
-    width: 500px;
+    height: 50px;
+    width: 875px;
     float: left;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.yellowboxes {
+    background-color: yellow;
+    height: 150px;
+    width: 270px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 26px;
 }
 .content2 {
     background-color: blue;
-    height: 500px;
+    height:580px;
     width: 100%;
+}
+.yellowboxes1 {
+    background-color: yellow;
+    height: 150px;
+    width: 190px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+.yellowstrip3 {
+    background-color: yellow;
+    height: 40px;
+    width: 875px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .content3 {
     background-color: greenyellow;
     height: 450px;
     width: 100%;
 }
+.yellowsquares {
+    background-color: yellow;
+    height: 350px;
+    width: 280px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.yellowstrip4 {
+    background-color: yellow;
+    height: 50px;
+    width: 875px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .content4 {
     background-color: red;
-    height: 300px;
+    height: 430px;
     width:100%;
 }
-
+.bigsquare {
+    background-color: yellow;
+    height: 320px;
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.littlesquare {
+    background-color: yellow;
+    height: 180px;
+    width: 250px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.yellowstrip5 {
+    background-color: yellow;
+    height: 50px;
+    width: 875px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .footer {
     background-color: blue;
     height: 50px;
