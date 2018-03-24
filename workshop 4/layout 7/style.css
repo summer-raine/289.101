@@ -16,8 +16,21 @@ body{
     height:50px;
     width:100%;
 }
-.yellowstrips{
-    
+.yellowstrip{
+    background-color: yellow;
+    height: 25px;
+    width: 250px;
+    float: left;
+    margin-top:10px;
+    margin-left: 10px;
+}
+.yellowstrip1 {
+    background-color: yellow;
+    height: 25px;
+    width: 580px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 .subcontent {
     background-color: green;
