@@ -1,0 +1,52 @@
+div{
+    outline:1px solid lime;
+}
+/*
+body{
+    background-color: red;
+}*/
+.container{
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header{
+    background-color:darkblue;
+    height:50px;
+    width:100%;
+}
+.yellowstrips{
+    
+}
+.subcontent {
+    background-color: green;
+    height: 300px;
+    width: 100%
+}
+.content {
+    background-color: red;
+    height: 250px;
+    width: 100%;
+}
+.content2 {
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+}
+.content3 {
+    background-color: greenyellow;
+    height: 450px;
+    width: 100%;
+}
+.content4 {
+    background-color: red;
+    height: 300px;
+    width:100%;
+}
+
+.footer {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
