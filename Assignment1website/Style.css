@@ -10,7 +10,7 @@ body {
     background-color: white;
     height:90px;
     color:black;
-    border-bottom:6px solid #4b4e61;
+    border-bottom:6px solid darkgrey;
 }
 .nav{
     max-width:950px;
@@ -35,18 +35,9 @@ body {
     padding-right: 10px;
 }
 .links a:hover{
-    color: #f06c64;
+    color: darkgrey;
 }
-  
-.banner{
-    background-color: #f06c64;
-    padding: 20px 0;
-    text-align: center;
-}
-.banner img{
-    max-width: 780px;
-    width: 90%;
-}
+
 
 
 
