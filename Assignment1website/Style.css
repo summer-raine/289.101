@@ -37,11 +37,11 @@ body {
 .links a:hover{
     color: darkgrey;
 }
-.content{
-    height: 150px;
-    color: white;
+.Homebox{
+    Height:10px;
+    width: auto;
+    color: black;
 }
-
 
 
 
