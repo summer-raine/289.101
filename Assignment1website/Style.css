@@ -70,20 +70,24 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-.1{
+.project1{
     width: 300px;
     float: left;
+    margin-left: 80px;
 }
-.2{
+.project2{
     width: 300px;
     float: left;
+    margin-left: 200px;
 }
-.1
 .contact{
-    height: 150px;
+   
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+.cellphone {
+    margin-left: 150px;
 }
 
 
