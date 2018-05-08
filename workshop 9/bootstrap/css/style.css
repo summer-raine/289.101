@@ -5,3 +5,47 @@ body{
     background-color: cornflowerblue;
     height:50px;
 }
+.green{
+    background-color: lawngreen;
+    height: 150px;
+}
+.orange{
+    background-color: darkorange;
+}
+.grey{
+    background-color: lightgrey;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    
+}
+.red {
+    background-color: mediumvioletred;
+    height:150px;
+}
+/* sm */
+@media (min-width:576px){
+    body{
+        background-color:red;
+    }
+}/* md */
+@media (min-width:768px){
+    body{
+        background-color:green;
+    }
+    .red {
+        height:300px;
+    }
+}/* lg */
+@media (min-width:922px){
+    body{
+        background-color:orange;
+    }
+}}/* xl */
+@media (min-width:922px){
+    body{
+        background-color:rpurple
+    }
+}
+    
