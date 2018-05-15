@@ -1,0 +1,29 @@
+        <style>
+            * { outline: #EEE solid 10px }
+        
+            .blue {
+                background-color: blue;
+                height: 50px;
+            }
+            
+            .green {
+                background-color: lime;
+            }
+            
+            .orange {
+                background-color: orange;
+            }
+            
+            .red {
+                background-color: maroon;
+            }
+            .pink {
+                background-color: pink;
+                height: 50px;
+            }
+            .grey {
+                background-color: gray;
+                height: 50px;
+                border-bottom: 1px solid #ff00ff;
+            }
+          </style>
