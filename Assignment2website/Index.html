@@ -9,9 +9,74 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         
-        <title>Assignment 2 website</title>
+        <title>Assignment2</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Aladin');
+
+            .header {
+                background-color: black;
+                height: 200px;
+            }
+
+            .nav {
+                max-width: 950px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .links {
+                margin-top: 40px;
+                font-size: 0.75rem;
+                color: white;
+            }
+            .links a {
+                color: white;
+                text-decoration: none;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .links a:hover{
+                color: ghostwhite;
+            }
+            .about {
+                background-color: black;
+                height: 200px;
+                border: 3px solid #ffffff;
+            }
+            .staff {
+                background-color: black;
+                height: 200px;
+                border: 3px solid #990000;
+            }
+
+            .classes {
+                background-color: black;
+                height:200px;
+                border: 3px solid #1a3300;
+            }
+            .activities {
+                background-color: black;
+                height: 200px;
+                border: 3px solid #ffff00;
+            }
+            .rules {
+                background-color: black;
+                height: 200px;
+                border: 3px solid #002699;
+            }
+            .contact {
+                background-color: black; 
+                height:200px;
+                border: 3px solid #ffffff;
+            }
+            .body {
+                scroll-behavior: smooth;
+                
+            }
+
         
-       
+        
+        </style>
+        
         
   </head>
     
@@ -19,39 +84,68 @@
       
       <div class="container">
           
-          <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12 blue"></div>
+          <div class="header">
+              <div class="nav">
+                  <div class="links">
+                      <a href="#about">ABOUT</a>
+                      <a href="#staff">STAFF</a>
+                      <a href="#classes">CLASSES</a>
+                      <a href="#activities">ACTIVITIES</a>
+                      <a href="#rules">RULES</a>
+                      <a href="#contact us">CONTACT US</a>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-lg-12 blue">Hogwarts</div>
           </div>
           
-          <div class="row">
+          <div class="about" id="about">
+              <h1>About</h1>
+              <div class="description">Hogwarts school of witchcraft ....</div>
               
-              <div class="col-sm-12 col-md-12 col-lg-3 green">
-                  green
+              <div class="col-sm-12 col-lg-3 green">
+                
               </div>
+            </div>
+          
+          <div class="staff" id="staff">
+              <h1>Staff</h1>
               
-              <div class="col-sm-12 col-md-6 col-lg-6 orange">
-                  
-                  <div class="row">
-                      <div class="col-sm-6 col-md-6 col-lg-4 grey">grey</div>
-                      <div class="col-lg-8 d-none d-lg-block pink">pink</div>
-
-                      <div class="col-sm-6 col-md-6 col-lg-4 grey">grey</div>
-                      <div class="col-lg-8 d-none d-lg-block pink">pink</div>
-                      
-                      <div class="col-sm-6 col-md-6 col-lg-4 grey">grey</div>
-                      <div class="col-lg-8 d-none d-lg-block pink">pink</div>
-                      
-                      <div class="col-sm-6 col-md-6 col-lg-4 grey">grey</div>
-                      <div class="col-lg-8 d-none d-lg-block pink">pink</div>
-                  </div>
-                  
-              </div>
-              
-              <div class="col-sm-12 col-md-6 col-lg-3 red">
-                red
-              </div>
-              
+              <div class="col-sm-12 col-lg-12 blue"></div>
           </div>
+          
+          <div class="classes" id="classes">
+              <h1>Classes</h1>
+              
+              <div class="col-sm-12 col-lg-3 green">
+                  
+              </div>
+            </div>          
+          
+          <div class="activities" id="activities">
+              <h1>Activities</h1>
+              
+              <div class="col-sm-12 col-lg-12 blue">activities</div>
+          </div>
+          
+          <div class="rules" id="rules">
+              <h1>Rules</h1>
+              
+              <div class="col-sm-12 col-lg-3 green">
+            
+              </div>
+            </div>
+            
+          <div class="contact us" id="contact us">
+              <h1>Contact us</h1>
+              
+              <div class="col-sm-12 col-lg-3 green">
+                
+              </div>
+            </div>
+              
+
+              
+          
                 
       </div>
 
