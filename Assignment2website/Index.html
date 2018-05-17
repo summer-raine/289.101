@@ -2,6 +2,8 @@
 
 <html lang="en">
     <head>
+
+        
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,9 +11,18 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         
-        <title>Assignment2</title>
+    
         <style>
             @import url('https://fonts.googleapis.com/css?family=Aladin');
+        </style>
+        
+        <title>Assignment2</title>
+        <style>
+            
+            
+            * {
+                outline: 1px solid red;
+            }
 
             .header {
                 background-color: black;
@@ -19,9 +30,10 @@
             }
 
             .nav {
-                max-width: 950px;
-                margin-left: auto;
-                margin-right: auto;
+                max-width: auto;
+                bottom: 0;
+                
+
             }
             .links {
                 margin-top: 40px;
@@ -60,18 +72,30 @@
             }
             .rules {
                 background-color: black;
-                height: 200px;
+                height: 400px;
                 border: 3px solid #002699;
             }
             .contact {
                 background-color: black; 
-                height:200px;
+                height:150px;
                 border: 3px solid #ffffff;
             }
             .body {
                 scroll-behavior: smooth;
                 
             }
+            .description {
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            .h1 {
+                text-align: center;
+                margin-top: 0;
+                font-weight: bold;
+            }
+    
 
         
         
@@ -85,6 +109,7 @@
       <div class="container">
           
           <div class="header">
+              <div class="col-sm-12 col-lg-12">
               <div class="nav">
                   <div class="links">
                       <a href="#about">ABOUT</a>
@@ -95,28 +120,25 @@
                       <a href="#contact us">CONTACT US</a>
                   </div>
               </div>
-              <div class="col-sm-12 col-lg-12 blue">Hogwarts</div>
+              </div>
           </div>
           
           <div class="about" id="about">
               <h1>About</h1>
-              <div class="description">Hogwarts school of witchcraft ....</div>
-              
-              <div class="col-sm-12 col-lg-3 green">
-                
-              </div>
+                <div class="description" id="description"> Hogwarts School of witchcraft and wizardry is a school for talented young wizards and witches. Hogwarts dates back to the Tenth Century and was founded in  the Scottish Highlands by our four great founders and house namesakes - Godrick Gryffindor - Salazar Slytherin - Rowena Ravenclaw and Helga Hufflepuff. The castle is a stronghold for ancient magic and is completely invisible to the muggle eye.</div>
+              <div class="col-sm-12 col-lg-3"></div>
             </div>
           
           <div class="staff" id="staff">
               <h1>Staff</h1>
               
-              <div class="col-sm-12 col-lg-12 blue"></div>
+              <div class="col-sm-12 col-lg-12"></div>
           </div>
           
           <div class="classes" id="classes">
               <h1>Classes</h1>
               
-              <div class="col-sm-12 col-lg-3 green">
+              <div class="col-sm-12 col-lg-3">
                   
               </div>
             </div>          
@@ -124,21 +146,33 @@
           <div class="activities" id="activities">
               <h1>Activities</h1>
               
-              <div class="col-sm-12 col-lg-12 blue">activities</div>
+              <div class="col-sm-12 col-lg-12"></div>
           </div>
           
           <div class="rules" id="rules">
               <h1>Rules</h1>
+              <div class="description" id="description">
+I - The forest on the grounds is forbidden to all pupils.
+II - There is to be no use of Auto-answering quills for any assignments or exams.
+III - There must be no use of magic on eachother in the hallways or library.
+IV - All students must be in bed by 10pm and must not be found wandering the halls past said time.
+V - Absolutely no swimming in the black lake so as to avoid annoying al inhabitants.
+VI - The resticted section in the library is off limits to students unless they present a signed note by parent or teacher.
+VII - Students shall be in uniform at all times while attending and in between classes.
+VIII - Students  shall maintain decorum and behaviour at all times.
+IX - Alcohol & tobacco are strictly prohibited on Hogwarts grounds at all times.
+X - Studensts must not leave school grounds unless permitted by head master or collected by parent or guardian.</div>
               
-              <div class="col-sm-12 col-lg-3 green">
+              <div class="col-sm-12 col-lg-3">
             
               </div>
             </div>
             
           <div class="contact us" id="contact us">
               <h1>Contact us</h1>
+              <div class="description">For registration Info, please be advised to send an owl to the following: Albus Percival Wulfric Brian Dumbledore, Headmaster of Hogwarts School of Witchcraft and Wizardry.</div>
               
-              <div class="col-sm-12 col-lg-3 green">
+              <div class="col-sm-12 col-lg-3">
                 
               </div>
             </div>
