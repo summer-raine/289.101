@@ -1,0 +1,58 @@
+     
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+        
+.header {
+    background-color: black;
+    height: 200px;
+}
+            
+.nav {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    color: white;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.links a:hover{
+    color: ghostwhite;
+}
+.about {
+    background-color: black;
+    height: 50px;
+    border: 1px solid #ffffff;
+}
+.staff {
+    background-color: black;
+    height: 50px;
+    border: 1px solid #990000;
+}
+            
+.classes {
+    background-color: black;
+    height:50px;
+    border: 1px solid #1a3300;
+}
+.activities {
+    background-color: black;
+    height: 50px;
+    border: 1px solid #ffff00;
+}
+.rules {
+    background-color: black;
+    height: 50px;
+    border: 1px solid #002699;
+}
+.ccontact {
+    background-color: black;
+    height:50px;
+    border: 1px solid #ffffff;
+}            
