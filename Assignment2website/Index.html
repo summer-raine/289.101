@@ -16,7 +16,7 @@
         
         <title>Assignment2</title>
         <style>
-            * {outline: 1px solid yellow}
+            /* {outline: 1px solid yellow}*/
             
             @import url('https://fonts.googleapis.com/css?family=Aladin'); 
             
@@ -28,6 +28,14 @@
             .header {
                 background-color: black;
                 height: 200px;
+                background-image: url(img/hogwarts.jpeg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            h1 {
+                text-align: center;
+                color: white;
             }
 
             .nav {
@@ -45,6 +53,15 @@
             
             .links a {
                 color: white;
+                padding: 10px;
+            }
+            
+            .links a:nth-last-of-type(1) {
+                border: 2px red solid;
+            }
+            
+            .links a:nth-last-of-type(2) {
+                border: 2px yellow solid;
             }
             
             .links a:hover{
@@ -59,32 +76,25 @@
             
             .staff {
                 background-color: black;
-                height: 200px;
                 border: 3px solid #990000;
                 overflow: hidden;
             }
             
             .ProfessorDumbledore {
-                height: 50px;
-                width:50px; 
-                background-color: red;
+                padding: 10px 0;
+                text-align: center;
+                color: white;
             }
             
             .ProfessorMcgonagall {
-                height: 50px;
-                width: 50px;
                 background-color: blue;
             }
             
             .RubeusHagrid {
-                height: 50px;
-                width: 50px;
                 background-color: orange;
             }
             
             .ProfessorSnape {
-                height: 50px;
-                width: 50px;
                 background-color: pink;
             }
             
@@ -117,7 +127,16 @@
                 text-align: center;
                 color: white;
             }
-
+            
+            .title {
+                color: white;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 20px;
+            }
+            .larger {
+                font-size: 50px;
+            }
         
         </style>
         
@@ -129,6 +148,11 @@
       <div class="container">
           
           <div class="header">
+              <div class="title">
+                Welcome to
+                  <div class="larger">Hogwarts</div>
+                  School of Wizardry
+              </div>
               <div class="col-sm-12 col-lg-12">
               <div class="nav">
                   <div class="links">
@@ -151,10 +175,24 @@
           
           <div class="staff" id="staff">
               <h1>Staff</h1>
-              <div class="ProfessorDumbledore"></div>
-              <div class="ProfessorMcgonagall"></div>
-              <div class="RubeusHagrid"></div>
-              <div class="ProfessorSnape"></div>
+              
+              <div class="row">
+              
+                  <div class="ProfessorDumbledore col-6 col-sm-3 col-md-3">
+                    <img src="img/dumbledore.jpeg" width="100%"/>
+                      dsfds
+                  </div>
+                  <div class="ProfessorMcgonagall col-6 col-sm-3 col-md-3">
+                    <img src="img/dumbledore.jpeg" width="100%"/>
+                  </div>
+                  <div class="RubeusHagrid col-6 col-sm-3 col-md-3">
+                    <img src="img/dumbledore.jpeg" width="100%"/>
+                  </div>
+                  <div class="ProfessorSnape col-6 col-sm-3 col-md-3">
+                    <img src="img/dumbledore.jpeg" width="100%"/>
+                  </div>
+            
+             </div>
               
               <div class="col-sm-12 col-lg-12"></div>
           </div>
@@ -176,16 +214,26 @@
           <div class="rules" id="rules">
               <h1>Rules</h1>
                 <div class="description" id="description">
+                    <div class="row">
+                        
+                        <div class="col-sm-12 col-md-6">
 I - The forest on the grounds is forbidden to all pupils.
 II - There is to be no use of Auto-answering quills for any assignments or exams.
 III - There must be no use of magic on eachother in the hallways or library.
 IV - All students must be in bed by 10pm and must not be found wandering the halls past said time.
 V - Absolutely no swimming in the black lake so as to avoid annoying al inhabitants.
+                        </div>
+                         <div class="col-sm-12  col-md-6">
 VI - The resticted section in the library is off limits to students unless they present a signed note by parent or teacher.
 VII - Students shall be in uniform at all times while attending and in between classes.
 VIII - Students  shall maintain decorum and behaviour at all times.
 IX - Alcohol and tobacco are strictly prohibited on Hogwarts grounds at all times.
-X - Studensts must not leave school grounds unless permitted by head master or collected by parent or guardian.</div>
+X - Studensts must not leave school grounds unless permitted by head master or collected by parent or guardian.
+                        </div>
+                    
+                    </div>
+                    
+                    </div>
               
               <div class="col-sm-12 col-lg-3">
             
